@@ -4889,3 +4889,8 @@ p {
     opacity: 0;
   }
 }/*# sourceMappingURL=main.css.map */
+
+
+.footer__section a {
+  text-transform: lowercase;
+}
