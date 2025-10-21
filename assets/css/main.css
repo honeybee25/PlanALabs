@@ -2852,7 +2852,8 @@ p {
     padding: 1px 0;
   }
   .text-slider .marquee-item img {
-    width: 220px;
+    margin-top: 8px;
+    height: 18px;
   }
 }
 
@@ -3805,10 +3806,22 @@ p {
   border-radius: 50%;
 }
 
+.sponsor__area > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sponsor__area img {
+  max-width: 100%;
+  margin: 20px;
+}
+
 .sponsor__area .sponsor__title {
-  text-align: center;
   margin: 0 auto 60px;
 }
+ .sponsor__area h4, .sponsor__area p {
+  text-align: center;
+ }
 @media (max-width: 1399px) {
   .sponsor__area {
     margin: 0 auto 40px;
@@ -3824,6 +3837,7 @@ p {
 }
 .sponsor__slide img {
   transition: all 0.4s;
+  text-align: center;
 }
 .sponsor__slide:hover img {
   filter: brightness(2);
