@@ -4908,3 +4908,7 @@ p {
 .footer__section a {
   text-transform: lowercase;
 }
+
+#mailCopy{
+  cursor: pointer;
+}
